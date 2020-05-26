@@ -1,0 +1,5 @@
+function collide(x,y){
+  if(x.width/2+y.width/2 >= y.x-x.x){
+    x.velocityX = (x.velocityX*0)
+  }
+}
